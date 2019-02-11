@@ -8,7 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'tubalmartin\\CssMin\\' => array($vendorDir . '/tubalmartin/cssmin/src'),
     'phpseclib\\' => array($vendorDir . '/phpseclib/phpseclib/phpseclib'),
-    'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/type-resolver/src', $vendorDir . '/phpdocumentor/reflection-docblock/src'),
+    'phpDocumentor\\Reflection\\' => array($vendorDir . '/phpdocumentor/reflection-common/src', $vendorDir . '/phpdocumentor/reflection-docblock/src', $vendorDir . '/phpdocumentor/type-resolver/src'),
     'Zend\\View\\' => array($vendorDir . '/zendframework/zend-view/src'),
     'Zend\\Validator\\' => array($vendorDir . '/zendframework/zend-validator/src'),
     'Zend\\Uri\\' => array($vendorDir . '/zendframework/zend-uri/src'),
@@ -121,6 +121,6 @@ return array(
     'Composer\\CaBundle\\' => array($vendorDir . '/composer/ca-bundle/src'),
     'Composer\\' => array($vendorDir . '/composer/composer/src/Composer'),
     'Codeception\\Extension\\' => array($vendorDir . '/codeception/codeception/ext'),
-    'Codeception\\' => array($vendorDir . '/codeception/stub/src', $vendorDir . '/codeception/codeception/src/Codeception'),
+    'Codeception\\' => array($vendorDir . '/codeception/codeception/src/Codeception', $vendorDir . '/codeception/stub/src'),
     'Braintree\\' => array($vendorDir . '/braintree/braintree_php/lib/Braintree'),
 );

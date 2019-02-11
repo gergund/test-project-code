@@ -7,10 +7,11 @@ namespace Composer\Autoload;
 class ComposerStaticInitf8e070e4a7427cfcd6fdb1c61119360f
 {
     public static $files = array (
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
-        '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
+        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '023d27dca8066ef29e6739335ea73bad' => __DIR__ . '/..' . '/symfony/polyfill-php70/bootstrap.php',
+        '25072dd6e2470089de65ae7bf11d3109' => __DIR__ . '/..' . '/symfony/polyfill-php72/bootstrap.php',
         '3a505b5f7faaefce1a399e528c23742b' => __DIR__ . '/..' . '/zendframework/zend-mvc/src/autoload.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
         'c964ee0ededf28c96ebd9db5099ef910' => __DIR__ . '/..' . '/guzzlehttp/promises/src/functions_include.php',
@@ -26,10 +27,9 @@ class ComposerStaticInitf8e070e4a7427cfcd6fdb1c61119360f
         '40360c0b9b437e69bcbb7f1349ce029e' => __DIR__ . '/..' . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
         'decc78cc4436b1292c6c0d151b19445c' => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
         '34901568a1e26d13dd475cb2c85e0284' => __DIR__ . '/..' . '/zendframework/zend-form/autoload/formElementManagerPolyfill.php',
-        '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+        'eda65932675b68b5aee4503e0762d64d' => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
         '3109cb1a231dcd04bee1f9f620d46975' => __DIR__ . '/..' . '/paragonie/sodium_compat/autoload.php',
         'aa75ea0761a2f40c1f3b32ad314f86c4' => __DIR__ . '/..' . '/phpseclib/mcrypt_compat/lib/mcrypt.php',
-        'eda65932675b68b5aee4503e0762d64d' => __DIR__ . '/..' . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
         '27a5783f6a5e8d8d1a4f54dff608a187' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );
 
@@ -219,8 +219,8 @@ class ComposerStaticInitf8e070e4a7427cfcd6fdb1c61119360f
         'phpDocumentor\\Reflection\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
-            1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
-            2 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            1 => __DIR__ . '/..' . '/phpdocumentor/reflection-docblock/src',
+            2 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
         ),
         'Zend\\View\\' => 
         array (
@@ -672,8 +672,8 @@ class ComposerStaticInitf8e070e4a7427cfcd6fdb1c61119360f
         ),
         'Codeception\\' => 
         array (
-            0 => __DIR__ . '/..' . '/codeception/stub/src',
-            1 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            0 => __DIR__ . '/..' . '/codeception/codeception/src/Codeception',
+            1 => __DIR__ . '/..' . '/codeception/stub/src',
         ),
         'Braintree\\' => 
         array (
@@ -693,9 +693,9 @@ class ComposerStaticInitf8e070e4a7427cfcd6fdb1c61119360f
         array (
             'Yandex' => 
             array (
-                0 => __DIR__ . '/..' . '/allure-framework/allure-php-api/src',
-                1 => __DIR__ . '/..' . '/allure-framework/allure-php-api/test',
-                2 => __DIR__ . '/..' . '/allure-framework/allure-codeception/src',
+                0 => __DIR__ . '/..' . '/allure-framework/allure-codeception/src',
+                1 => __DIR__ . '/..' . '/allure-framework/allure-php-api/src',
+                2 => __DIR__ . '/..' . '/allure-framework/allure-php-api/test',
             ),
         ),
         'P' => 

@@ -277,3 +277,6 @@
 [2019-02-08 14:46:35] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["WEBSERVICE"],"mode":"matchingTag"}} []
 [2019-02-08 14:46:35] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["TRANSLATE"],"mode":"matchingTag"}} []
 [2019-02-08 14:54:35] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2019-02-11 14:44:46] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2019-02-11 14:44:58] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http:/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []
+[2019-02-11 14:47:00] main.DEBUG: cache_invalidate:  {"method":"GET","url":"http://docker.magento.loc/","invalidateInfo":{"tags":["interception","CONFIG"],"mode":"matchingTag"}} []

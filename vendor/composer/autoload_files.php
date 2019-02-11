@@ -6,10 +6,11 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
+    '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
     '320cde22f66dd4f5d3fd621d3e88b98f' => $vendorDir . '/symfony/polyfill-ctype/bootstrap.php',
-    '25072dd6e2470089de65ae7bf11d3109' => $vendorDir . '/symfony/polyfill-php72/bootstrap.php',
+    '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => $vendorDir . '/symfony/polyfill-mbstring/bootstrap.php',
     '023d27dca8066ef29e6739335ea73bad' => $vendorDir . '/symfony/polyfill-php70/bootstrap.php',
+    '25072dd6e2470089de65ae7bf11d3109' => $vendorDir . '/symfony/polyfill-php72/bootstrap.php',
     '3a505b5f7faaefce1a399e528c23742b' => $vendorDir . '/zendframework/zend-mvc/src/autoload.php',
     'a0edc8309cc5e1d60e3047b5df6b7052' => $vendorDir . '/guzzlehttp/psr7/src/functions_include.php',
     'c964ee0ededf28c96ebd9db5099ef910' => $vendorDir . '/guzzlehttp/promises/src/functions_include.php',
@@ -25,9 +26,8 @@ return array(
     '40360c0b9b437e69bcbb7f1349ce029e' => $vendorDir . '/zendframework/zend-diactoros/src/functions/parse_cookie_header.php',
     'decc78cc4436b1292c6c0d151b19445c' => $vendorDir . '/phpseclib/phpseclib/phpseclib/bootstrap.php',
     '34901568a1e26d13dd475cb2c85e0284' => $vendorDir . '/zendframework/zend-form/autoload/formElementManagerPolyfill.php',
-    '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
+    'eda65932675b68b5aee4503e0762d64d' => $vendorDir . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
     '3109cb1a231dcd04bee1f9f620d46975' => $vendorDir . '/paragonie/sodium_compat/autoload.php',
     'aa75ea0761a2f40c1f3b32ad314f86c4' => $vendorDir . '/phpseclib/mcrypt_compat/lib/mcrypt.php',
-    'eda65932675b68b5aee4503e0762d64d' => $vendorDir . '/magento/magento2-functional-testing-framework/src/Magento/FunctionalTestingFramework/_bootstrap.php',
     '27a5783f6a5e8d8d1a4f54dff608a187' => $baseDir . '/app/etc/NonComposerComponentRegistration.php',
 );

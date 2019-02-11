@@ -10,7 +10,7 @@ return [
         'table_prefix' => '',
         'connection' => [
             'default' => [
-                'host' => '10.245.235.150',
+                'host' => '10.245.206.3',
                 'dbname' => 'magento',
                 'username' => 'magento',
                 'password' => 'magento',
@@ -31,7 +31,7 @@ return [
     'session' => [
         'save' => 'redis',
         'redis' => [
-            'host' => '10.245.231.157',
+            'host' => '10.245.50.150',
             'port' => '6379',
             'password' => '',
             'timeout' => '2.5',
@@ -72,6 +72,29 @@ return [
         'translate' => 1
     ],
     'install' => [
-        'date' => 'Fri, 08 Feb 2019 14:46:35 +0000'
+        'date' => 'Mon, 11 Feb 2019 14:45:34 +0000'
+    ],
+    'cache' => [
+        'frontend' => [
+            'default' => [
+                'backend' => 'Cm_Cache_Backend_Redis',
+                'backend_options' => [
+                    'server' => '10.245.50.150',
+                    'database' => '0',
+                    'port' => '6379',
+                    'password' => ''
+                ]
+            ],
+            'page_cache' => [
+                'backend' => 'Cm_Cache_Backend_Redis',
+                'backend_options' => [
+                    'server' => '10.245.50.150',
+                    'database' => '1',
+                    'port' => '6379',
+                    'compress_data' => '0',
+                    'password' => ''
+                ]
+            ]
+        ]
     ]
 ];
